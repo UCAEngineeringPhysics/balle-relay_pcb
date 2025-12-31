@@ -583,6 +583,509 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:LED_RKGB"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 9.398 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_RKGB"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED, red/cathode/green/blue"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED RGB diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_RKGB_0_0"
+				(text "R"
+					(at 1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at 1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at 1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_RKGB_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.032 5.08) (xy -2.032 -5.08) (xy -1.016 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_RKGB_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "RA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "GA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "BA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:RaspberryPi_Pico"
 			(pin_names
 				(offset 0.762)
@@ -1955,11 +2458,11 @@
 	)
 	(text "MD1"
 		(exclude_from_sim no)
-		(at 61.468 110.236 0)
+		(at 18.288 96.52 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 3.81 3.81)
+				(size 2.54 2.54)
 				(thickness 0.762)
 				(bold yes)
 			)
@@ -1983,11 +2486,11 @@
 	)
 	(text "RED - MOTOR1 RED\nBLACK - MOTOR1 BLACK"
 		(exclude_from_sim no)
-		(at 62.23 117.348 0)
+		(at 19.05 103.632 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 2.54 2.54)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -1995,11 +2498,11 @@
 	)
 	(text "RED - MOTOR2 RED\nBLACK - MOTOR2 BLACK"
 		(exclude_from_sim no)
-		(at 62.484 133.604 0)
+		(at 19.304 119.888 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 2.54 2.54)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -2011,7 +2514,7 @@
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 3.81 3.81)
+				(size 2.54 2.54)
 				(thickness 0.762)
 				(bold yes)
 			)
@@ -2025,45 +2528,19 @@
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 2.54 2.54)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
 		(uuid "77efe883-f848-4772-b339-4ac56d2f766d")
 	)
-	(text "GP - GPI12\nGP - GPI13\nGND - GND PIN\nGP - GPI19\nGP - GPI18\nGND - GND PIN"
+	(text "MD2"
 		(exclude_from_sim no)
-		(at 15.748 164.846 0)
+		(at 18.542 112.776 0)
 		(effects
 			(font
 				(face "KiCad Font")
 				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "78580bc4-a34c-48e1-b43d-ca5bc581ee3a")
-	)
-	(text "SERVO MOTORS"
-		(exclude_from_sim no)
-		(at 14.986 147.32 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "7fef734b-63ec-4057-be3e-9b2efbae06c4")
-	)
-	(text "MD2"
-		(exclude_from_sim no)
-		(at 61.722 126.492 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 3.81 3.81)
 				(thickness 0.762)
 				(bold yes)
 			)
@@ -2071,27 +2548,13 @@
 		)
 		(uuid "978896c9-6cc1-4e53-a8e9-704519e2ca94")
 	)
-	(text "MOTOR DRIVER"
-		(exclude_from_sim no)
-		(at 15.748 110.236 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 3.81 3.81)
-				(thickness 0.762)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "9e92c6d4-16d1-412f-9b65-69f5ba3eb1a1")
-	)
 	(text "MOTOR 1"
 		(exclude_from_sim no)
 		(at 16.51 21.844 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 3.81 3.81)
+				(size 2.54 2.54)
 				(thickness 0.762)
 				(bold yes)
 			)
@@ -2099,25 +2562,13 @@
 		)
 		(uuid "a9f96be4-220c-415d-94cd-0a9f7e3d702a")
 	)
-	(text "1/6 - GND\n2/7 - GPI\n3/8 - GPI\n4/9 - GPI\n5/10 - 3V3\n"
-		(exclude_from_sim no)
-		(at 16.51 123.952 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "cb3063c9-c889-424c-a70e-c5ab38ed94bf")
-	)
 	(text "Red - motor power 1; MD1-1\nBlack - motor power 2; MD1-2\nGreen - encoder GND\nBlue - encoder Vcc; Vbus\nYellow - encoder A; GPI10\nWhite - encoder B; GPI11"
 		(exclude_from_sim no)
 		(at 16.764 37.592 0)
 		(effects
 			(font
 				(face "KiCad Font")
-				(size 2.54 2.54)
+				(size 1.27 1.27)
 			)
 			(justify left)
 		)
@@ -2280,17 +2731,6 @@
 			(type default)
 		)
 		(uuid "17916def-6e59-470a-976b-3b7736732080")
-	)
-	(polyline
-		(pts
-			(xy 110.49 12.7) (xy 110.49 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 132 0 0 1)
-		)
-		(uuid "1baaa67c-f284-41c8-9c39-611e36db39a0")
 	)
 	(wire
 		(pts
@@ -3377,6 +3817,80 @@
 			(project ""
 				(path "/108ca819-7acb-4683-8ce1-30bbf8b45c37"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_RKGB")
+		(at 135.89 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1806e8a0-3407-40e9-ac5c-901dc305887b")
+		(property "Reference" "D1"
+			(at 135.89 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_RKGB"
+			(at 135.89 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED, red/cathode/green/blue"
+			(at 135.89 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab518e55-d3c1-47cd-a983-59e824579284")
+		)
+		(pin "4"
+			(uuid "c742486d-e4d3-41fd-9c5b-913201d082a6")
+		)
+		(pin "3"
+			(uuid "360b100b-6cad-41f1-9449-df77eec1cac4")
+		)
+		(pin "2"
+			(uuid "048c176d-e7f6-4816-9d12-20967a6f5e8f")
+		)
+		(instances
+			(project ""
+				(path "/108ca819-7acb-4683-8ce1-30bbf8b45c37"
+					(reference "D1")
 					(unit 1)
 				)
 			)
