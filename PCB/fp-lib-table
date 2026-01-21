@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "RaspberryPi_Pico_THT")(type "KiCad")(uri "${KIPRJMOD}/Raspberry_Pi_Pico/RaspberryPi_Pico_THT.pretty")(options "")(descr ""))
+)
