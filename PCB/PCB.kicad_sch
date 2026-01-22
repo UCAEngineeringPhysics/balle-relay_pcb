@@ -5449,12 +5449,12 @@
 		(uuid "0da424eb-4dc3-4e46-b1c7-8834cad58ef9")
 	)
 	(label "INB1"
-		(at 189.23 50.8 0)
+		(at 224.79 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0e2f150b-a6f4-422f-9ec1-88361caf3e1c")
 	)
@@ -5619,12 +5619,12 @@
 		(uuid "3accdc63-ee63-4a03-8820-f0385349a57e")
 	)
 	(label "PWM2"
-		(at 224.79 45.72 180)
+		(at 189.23 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "3e326e52-4877-4640-885c-984545bdabd6")
 	)
@@ -5689,12 +5689,12 @@
 		(uuid "53c93082-8c68-476b-adce-3eea4cda3cef")
 	)
 	(label "INA1"
-		(at 189.23 48.26 0)
+		(at 224.79 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "53e5338b-c27b-44b3-8501-c5314baadb36")
 	)
@@ -5859,12 +5859,12 @@
 		(uuid "9a82a79a-057f-4e02-929a-3e9b4323a297")
 	)
 	(label "INA2"
-		(at 224.79 48.26 180)
+		(at 189.23 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "a6161d25-e917-4cc1-bb15-887b50c38729")
 	)
@@ -6019,12 +6019,12 @@
 		(uuid "e16c8419-a56e-4608-95b5-979721eb1b10")
 	)
 	(label "PWM1"
-		(at 189.23 45.72 0)
+		(at 224.79 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e33efa51-8ccf-479c-a5a3-5f3b35041604")
 	)
@@ -6059,12 +6059,12 @@
 		(uuid "ea41098c-1155-42c6-8dca-eef550bc5df8")
 	)
 	(label "INB2"
-		(at 224.79 50.8 180)
+		(at 189.23 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ec7b9a00-fe64-46f0-b71c-83f5d0016bfc")
 	)
@@ -6838,7 +6838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 240.03 81.28 0)
 			(effects
 				(font
@@ -8316,7 +8316,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 153.67 81.28 0)
 			(effects
 				(font
